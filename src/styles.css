@@ -7,12 +7,12 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 img {
-  border-radius: 8px;
-  border: solid 2px gray;
+  border-radius: 5px;
+  border: solid 1px rgb(217, 40, 42);
 }
 
 a {
