@@ -1,0 +1,20 @@
+* {
+  margin: auto;
+}
+
+.container__menu-welcome {
+  background-color: rgb(220, 220, 220);
+  border-radius: 10px;
+  padding: 20px 0 20px 0;
+}
+
+.container__menu-welcome > h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome {
+  font-size: 12px;
+  letter-spacing: 5px;
+  text-align: center;
+}
