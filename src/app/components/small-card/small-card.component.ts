@@ -12,6 +12,10 @@ export class SmallCardComponent implements OnInit {
 
   @Input()
   cardTitle:string = "Anunciada uma nova série Star Wars na Dysney Plus"
+
+  @Input()
+  Id="0"
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,45 +1,70 @@
-<header>
-  <app-menu-bar></app-menu-bar>
-  <app-menu-welcome></app-menu-welcome>
-</header>
+<div class="container">
+  <div class="container__articles"  id="cinema">
+    <div class="articles__main">
+      <app-main-card
+      Id="1"
+      photoCover="https://as01.epimg.net/betech/imagenes/2019/02/18/portada/1550521496_408433_1550521589_noticia_normal.jpg"
+      cardTitle="NOVO HOME DE FERRO EM 3D"
+      cardDescription="Marvel anuncia novo filme do Homem de Ferro com cenas espetaculares">
+      </app-main-card>
 
-<div class="container__articles">
-  <div class="articles__main">
-    <app-main-card
-    photoCover="https://as01.epimg.net/betech/imagenes/2019/02/18/portada/1550521496_408433_1550521589_noticia_normal.jpg"
-    cardTitle="NOVO HOME DE FERRO EM 3D"
-    cardDescription="Marvel anuncia novo filme do Homem de Ferro com cenas espetaculares">
-    </app-main-card>
-    <app-main-card
-    photoCover="https://www.meioemensagem.com.br/wp-content/uploads/2022/03/Inteligencia-Artificial.jpg"
-    cardTitle="CIENTISTAS X IA"
-    cardDescription="Por que o desenvolvimento da Inteligencia Artificial está assustando os cientistas?">
-    </app-main-card>
+    </div>
+    <div class="articles__others">
+      <app-small-card
+        Id="2"
+        cardTitle="Nova série anunciada no Disney Plus"
+        photoCover="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MkFbiQrSCk_6OB4-9rugP4CpcNV9wW9k_w&usqp=CAU"
+      >
+      </app-small-card>
 
+      <app-small-card
+        Id="3"
+        cardTitle="Filme 3D do Pantera Negra estréia em 2024"
+        photoCover="https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/pantera-negra-1.webp?fit=1920%2C1080&ssl=1"
+      >
+      </app-small-card>
 
-
-
-
-
-
+      <app-small-card
+        Id="4"
+        cardTitle="Vazam os primeiros detalhes da trama do novo filme do Homem-Aranha"
+        photoCover="https://viciados.net/wp-content/uploads/2022/02/Homem-Aranha-4-Tom-Holland.webp"
+      >
+      </app-small-card>
+    </div>
   </div>
-  <div class="articles__others">
-    <app-small-card
-      cardTitle="Nova série anunciada no Disney Plus"
-      photoCover="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4MkFbiQrSCk_6OB4-9rugP4CpcNV9wW9k_w&usqp=CAU"
-    >
-    </app-small-card>
+  <div class="container__articles" id="tech">
+    <div class="articles__main">
 
-    <app-small-card
-      cardTitle="Filme 3D do Pantera Negra estréia em 2024"
-      photoCover="https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/11/pantera-negra-1.webp?fit=1920%2C1080&ssl=1"
-    >
-    </app-small-card>
+      <app-main-card
+      Id="5"
+      photoCover="https://www.meioemensagem.com.br/wp-content/uploads/2022/03/Inteligencia-Artificial.jpg"
+      cardTitle="CIENTISTAS X IA"
+      cardDescription="Por que o desenvolvimento da Inteligencia Artificial está assustando os cientistas?">
+      </app-main-card>
 
-    <app-small-card
-      cardTitle="Vazam os primeiros detalhes da trama do novo filme do Homem-Aranha"
-      photoCover="https://viciados.net/wp-content/uploads/2022/02/Homem-Aranha-4-Tom-Holland.webp"
-    >
-    </app-small-card>
+
+    </div>
+    <div class="articles__others">
+      <app-small-card
+        Id="6"
+        cardTitle="Robótica revoluciona cuidados médicos"
+        photoCover="https://portal.wemeds.com.br/wp-content/uploads/2021/09/cirurgia-robotica-em-brasilia-1-696x464.jpg"
+      >
+      </app-small-card>
+
+      <app-small-card
+        Id="7"
+        cardTitle="Educação ganha com realidade virtual"
+        photoCover="https://blogs.funiber.org/pt/wp-content/uploads/2018/01/funiber-realidade-virtual-escola.jpg"
+      >
+      </app-small-card>
+
+      <app-small-card
+        Id="8"
+        cardTitle="Desafios éticos da inteligência artificial"
+        photoCover="https://observadorurbano.com/wp-content/uploads/2019/01/shutterstock_204361294-1000x640.jpg"
+      >
+      </app-small-card>
+    </div>
   </div>
 </div>
